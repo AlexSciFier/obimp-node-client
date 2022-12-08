@@ -1,0 +1,20 @@
+{
+  "name": "obimp-node-client",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:frontend": "cd bimoid-react-client && npm install",
+    "install": "npm run install:server && npm run install:frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexSciFier/obimp-node-client.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexSciFier/obimp-node-client/issues"
+  },
+  "homepage": "https://github.com/AlexSciFier/obimp-node-client#readme"
+}
